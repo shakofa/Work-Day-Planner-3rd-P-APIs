@@ -5,7 +5,6 @@ var time1 = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 
 $(document).ready(function(){
 
-
  $('.saveBtn').on("click", function(){
 
     //getting the valuse of text area
@@ -20,7 +19,7 @@ $(document).ready(function(){
  });
 
 
-function hourUPdt(){
+    function hourUPdt(){
 
     var currentH = moment().hours();
 
